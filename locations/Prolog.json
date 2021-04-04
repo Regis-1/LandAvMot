@@ -3,8 +3,8 @@
         "id": 0,
         "name": "Pokład (rufa)",
         "description": "Znajdujesz się na tylnej części pokładu. Przez otaczającą, gęstą mgłę nie jesteś w stanie nic zobaczyć poza spokojnymi wodami akwenu. W pobliżu nie znajduje się nic przydatnego, ale pod nogami jesteś w stanie wyczuć klapę prowadzącą pod pokład. Na północy widzisz dziób drakkara.",
-        "items": [0, 1, 3],
-        "interesting": [0],
+        "items": [],
+        "interesting": [],
         "interactive": [],
         "directions": [null, 1, null, null, null, 2]
     },
@@ -13,15 +13,15 @@
         "name": "Pokład (dziób)",
         "description": "Przód drakkara. Przed sobą, na dziobie widzisz postawną rzeźbę smoka, która zwrócona jest ku północy, w otchłań gęstej mgły. Rozglądając się dookoła jesteś w stanie spostrzec leżące na deskach płótno z herbem jakiegoś klanu oraz napis wyryty na bocznej burcie. Na wschodzie zauważasz lekko kołyszącą się łódkę przybitą do statku, natomiast na południu - drugi koniec statku.",
         "items": [],
-        "interesting": [1],
-        "interactive": [0],
+        "interesting": [],
+        "interactive": [],
         "directions": [3, null, null, 0, null, null]
     },
     {
         "id": 2,
         "name": "Pod pokładem",
         "description": "Zaglądając pod pokład nie jesteś w stanie zbyt wiele zobaczyć. Słabe światło księżyca pozwala ci dostrzec jedynie parę przedmiotów leżących na ziemi oraz małą, wpół otwartą skrzynkę znajdującą się tuż pod klapą. Resztę pomieszczenia spowija ciemność, którą w obecnej sytuacji ciężko będzie odegnać.",
-        "items": [1],
+        "items": ["a0"],
         "interesting": [],
         "interactive": [],
         "directions": [null, null, null, null, 0, null]

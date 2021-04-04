@@ -13,7 +13,7 @@ def main(stdscr):
     player = engine.load_player()
     instance = engine.load_instance("Prolog")
     while True:
-        engine.printLocationInfo(win, str(instance.locations[player.curr_location]))
+        engine.printLocationInfo(win, instance, player.curr_location)
         usr_input = win.getstr()
         engine.user_action(player, instance, usr_input.decode(encoding="utf-8"))
 

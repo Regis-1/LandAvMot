@@ -11,11 +11,14 @@ class Location:
         self.interactive = interact
         self.directions = directions
 
-    def __str__(self):
-        output = f"--{self.name}--\n{self.description}\n\nWyjścia: "
+    def str_full_desc(self):
+        return f"--{self.name}--\n{self.description}\n"
+
+    def str_directions(self):
+        output = "Wyjścia: "
         for i, d in enumerate(self.directions):
             if d is not None:
                 output += self.cardinal_directions[i]+" "
-        
+            
         output += "\n"
         return output

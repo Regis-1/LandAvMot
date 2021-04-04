@@ -14,5 +14,6 @@
         "luc": 5
     },
     "curr_location": 0,
-    "curr_instance": "Prolog"
+    "curr_instance": "Prolog",
+    "weight_cap": 60
 }
