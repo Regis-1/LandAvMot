@@ -12,7 +12,7 @@
         "id": 1,
         "name": "Pokład (dziób)",
         "description": "Przód drakkara. Przed sobą, na dziobie widzisz postawną rzeźbę smoka, która zwrócona jest ku północy, w otchłań gęstej mgły. Rozglądając się dookoła jesteś w stanie spostrzec leżące na deskach płótno z herbem jakiegoś klanu oraz napis wyryty na bocznej burcie. Na wschodzie zauważasz lekko kołyszącą się łódkę przybitą do statku, natomiast na południu - drugi koniec statku.",
-        "items": [],
+        "items": ["w1"],
         "interesting": [],
         "interactive": [],
         "directions": [3, null, null, 0, null, null]
@@ -21,7 +21,7 @@
         "id": 2,
         "name": "Pod pokładem",
         "description": "Zaglądając pod pokład nie jesteś w stanie zbyt wiele zobaczyć. Słabe światło księżyca pozwala ci dostrzec jedynie parę przedmiotów leżących na ziemi oraz małą, wpół otwartą skrzynkę znajdującą się tuż pod klapą. Resztę pomieszczenia spowija ciemność, którą w obecnej sytuacji ciężko będzie odegnać.",
-        "items": ["a0"],
+        "items": ["a0", "a1"],
         "interesting": [],
         "interactive": [],
         "directions": [null, null, null, null, 0, null]

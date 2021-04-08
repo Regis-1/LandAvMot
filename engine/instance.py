@@ -1,3 +1,5 @@
+import copy
+
 # Instance is class that represent 'chunk' of the world.
 # This allow me to avoid loading whole game's content only
 # for little use by the player. 
@@ -5,14 +7,13 @@ class Instance:
     def __init__(self, name):
         self.name = name
         self.locations = []
-        self.items = []
+        self.armor = []
+        self.weapons = []
+        self.misc = []
         self.characters = []
 
-    def str_loc_items(self, id):
-        output = "Przedmioty w pobliżu:\n"
-        for item1 in self.locations[id].items:
-            for item2 in self.items:
-                if item1 == item2.id:
-                    output += "\t"+item2.name+"\n"
-
-        return output
+    def get_item(self, item_id):
+        if item_id[0] == "a":
+            return copy.deepcopy(self.armor[int(item_id[1:])])
+        elif item_id[0] == "w":
+            return copy.deepcopy(self.weapons[int(item_id[1:])])

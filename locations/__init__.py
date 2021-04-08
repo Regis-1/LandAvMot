@@ -12,7 +12,13 @@ class Location:
         self.directions = directions
 
     def str_full_desc(self):
-        return f"--{self.name}--\n{self.description}\n"
+        output = f"--{self.name}--\n{self.description}\n"
+        if len(self.items) > 0:
+            output += "Przedmioty w pobliżu:\n"
+            for it in self.items:
+                output += f"\t{it.name}\n"
+        
+        return output
 
     def str_directions(self):
         output = "Wyjścia: "

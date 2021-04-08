@@ -5,6 +5,7 @@
         "description": "Skórzane rękawice w bardzo słabym stanie.",
         "weight": 1.2,
         "interactions": [0],
+        "value": 1,
         "defence": 1,
         "body_part": [4]
     },
@@ -14,6 +15,7 @@
         "description": "Skórzane spodnie z widocznymi śladami użytkowania.",
         "weight": 1.8,
         "interactions": [0],
+        "value": 2.5,
         "defence": 1,
         "body_part": [2]
     },
@@ -23,6 +25,7 @@
         "description": "Kij, który został połamany w taki, że jeden z końców jest dość ostry.",
         "weight": 1.0,
         "interactions": [0],
+        "value": 2,
         "damage": 0.8,
         "two_handed": false
     },
@@ -32,6 +35,7 @@
         "description": "Prosty sztylet, który jest lekko wyszczerbiony po obu stronach głowni.",
         "weight": 1.0,
         "interactions": [0],
+        "value": 1.2,
         "damage": 1.0,
         "two_handed": false 
     }
