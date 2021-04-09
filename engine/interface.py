@@ -5,6 +5,8 @@ from locations import Location
 def add_prompt(win):
     win.addstr(">> ")
 
+#PRINT LOCATION INFO
+#prints all informations about given location
 def print_location_info(win, i, id):
     win.clear()
     win.addstr(i.locations[id].str_full_desc())
@@ -13,6 +15,9 @@ def print_location_info(win, i, id):
     add_prompt(win)
     win.refresh()
 
+#PRINT ITEM LIST
+#prints numbered item list from given array of items;
+#can be used in inventory, shops or loot
 def print_item_list(win, items, title=""):
     win.clear()
     if title:
@@ -24,6 +29,8 @@ def print_item_list(win, items, title=""):
     add_prompt(win)
     win.refresh()
 
+#PRINT DESCRIPTION
+#prints description about given object (item, sign etc)
 def print_description(win, obj):
     win.clear()
     win.addstr("--"+obj.name+"--\n")

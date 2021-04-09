@@ -5,7 +5,7 @@ import json
 from engine.instance import Instance
 from engine.player import Player
 
-# Function used to load all necessary data instance class
+# Function used to load all necessary to data instance class
 def load_instance(name):
     inst = Instance(name)
     paths = ["items/", "locations/"]
